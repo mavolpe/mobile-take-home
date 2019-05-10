@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA8E2BC2283842300463D35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2BB2283842300463D35 /* AppDelegate.swift */; };
+		BEA8E2BE2283842300463D35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2BD2283842300463D35 /* ViewController.swift */; };
+		BEA8E2C12283842300463D35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2BF2283842300463D35 /* Main.storyboard */; };
+		BEA8E2C32283842500463D35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2C22283842500463D35 /* Assets.xcassets */; };
+		BEA8E2C62283842500463D35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2C42283842500463D35 /* LaunchScreen.storyboard */; };
+		BEA8E2D12283842500463D35 /* GuestLogixChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2D02283842500463D35 /* GuestLogixChallengeTests.swift */; };
+		BEA8E2DC2283842500463D35 /* GuestLogixChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2DB2283842500463D35 /* GuestLogixChallengeUITests.swift */; };
+		BEA8E2ED2283A74900463D35 /* routes.csv in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2EA2283A74900463D35 /* routes.csv */; };
+		BEA8E2EE2283A74900463D35 /* airlines.csv in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2EB2283A74900463D35 /* airlines.csv */; };
+		BEA8E2EF2283A74900463D35 /* airports.csv in Resources */ = {isa = PBXBuildFile; fileRef = BEA8E2EC2283A74900463D35 /* airports.csv */; };
+		BEA8E2F42283B7B200463D35 /* CSVFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2F32283B7B200463D35 /* CSVFileReader.swift */; };
+		BEA8E2F62284807700463D35 /* RouteFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2F52284807700463D35 /* RouteFinder.swift */; };
+		BEA8E2F82284924600463D35 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2F72284924600463D35 /* Route.swift */; };
+		BEA8E2FD2284937500463D35 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2FC2284937500463D35 /* Airport.swift */; };
+		BEA8E2FF228495A300463D35 /* AirportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E2FE228495A300463D35 /* AirportManager.swift */; };
+		BEA8E30322849AB300463D35 /* HopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA8E30222849AB300463D35 /* HopViewModel.swift */; };
+		BEE096C12285D85600BE7840 /* TripDistanceCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE096C02285D85600BE7840 /* TripDistanceCalculator.swift */; };
+		BEE096C52285E8B600BE7840 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE096C32285E8B600BE7840 /* SearchTableViewCell.swift */; };
+		BEE096C62285E8B600BE7840 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEE096C42285E8B600BE7840 /* SearchTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA8E2CD2283842500463D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA8E2B02283842300463D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA8E2B72283842300463D35;
+			remoteInfo = GuestLogixChallenge;
+		};
+		BEA8E2D82283842500463D35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA8E2B02283842300463D35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA8E2B72283842300463D35;
+			remoteInfo = GuestLogixChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA8E2B82283842300463D35 /* GuestLogixChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuestLogixChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA8E2BB2283842300463D35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEA8E2BD2283842300463D35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA8E2C02283842300463D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA8E2C22283842500463D35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA8E2C52283842500463D35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA8E2C72283842500463D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA8E2CC2283842500463D35 /* GuestLogixChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuestLogixChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA8E2D02283842500463D35 /* GuestLogixChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestLogixChallengeTests.swift; sourceTree = "<group>"; };
+		BEA8E2D22283842500463D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA8E2D72283842500463D35 /* GuestLogixChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuestLogixChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA8E2DB2283842500463D35 /* GuestLogixChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestLogixChallengeUITests.swift; sourceTree = "<group>"; };
+		BEA8E2DD2283842500463D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA8E2EA2283A74900463D35 /* routes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.csv; sourceTree = "<group>"; };
+		BEA8E2EB2283A74900463D35 /* airlines.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airlines.csv; sourceTree = "<group>"; };
+		BEA8E2EC2283A74900463D35 /* airports.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airports.csv; sourceTree = "<group>"; };
+		BEA8E2F32283B7B200463D35 /* CSVFileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVFileReader.swift; sourceTree = "<group>"; };
+		BEA8E2F52284807700463D35 /* RouteFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteFinder.swift; sourceTree = "<group>"; };
+		BEA8E2F72284924600463D35 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		BEA8E2FC2284937500463D35 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		BEA8E2FE228495A300463D35 /* AirportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportManager.swift; sourceTree = "<group>"; };
+		BEA8E30222849AB300463D35 /* HopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopViewModel.swift; sourceTree = "<group>"; };
+		BEE096C02285D85600BE7840 /* TripDistanceCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDistanceCalculator.swift; sourceTree = "<group>"; };
+		BEE096C32285E8B600BE7840 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		BEE096C42285E8B600BE7840 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA8E2B52283842300463D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA8E2C92283842500463D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA8E2D42283842500463D35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA8E2AF2283842300463D35 = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2BA2283842300463D35 /* GuestLogixChallenge */,
+				BEA8E2CF2283842500463D35 /* GuestLogixChallengeTests */,
+				BEA8E2DA2283842500463D35 /* GuestLogixChallengeUITests */,
+				BEA8E2B92283842300463D35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA8E2B92283842300463D35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2B82283842300463D35 /* GuestLogixChallenge.app */,
+				BEA8E2CC2283842500463D35 /* GuestLogixChallengeTests.xctest */,
+				BEA8E2D72283842500463D35 /* GuestLogixChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA8E2BA2283842300463D35 /* GuestLogixChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2F22283B78100463D35 /* Utilities */,
+				BEA8E2F12283A78100463D35 /* API */,
+				BEA8E2F02283A76600463D35 /* Model */,
+				BEA8E2FB2284932E00463D35 /* ViewModel */,
+				BEE096C22285E89200BE7840 /* Views */,
+				BEA8E2E92283A74900463D35 /* data */,
+				BEA8E2BB2283842300463D35 /* AppDelegate.swift */,
+				BEA8E2BD2283842300463D35 /* ViewController.swift */,
+				BEA8E2BF2283842300463D35 /* Main.storyboard */,
+				BEA8E2C22283842500463D35 /* Assets.xcassets */,
+				BEA8E2C42283842500463D35 /* LaunchScreen.storyboard */,
+				BEA8E2C72283842500463D35 /* Info.plist */,
+			);
+			path = GuestLogixChallenge;
+			sourceTree = "<group>";
+		};
+		BEA8E2CF2283842500463D35 /* GuestLogixChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2D02283842500463D35 /* GuestLogixChallengeTests.swift */,
+				BEA8E2D22283842500463D35 /* Info.plist */,
+			);
+			path = GuestLogixChallengeTests;
+			sourceTree = "<group>";
+		};
+		BEA8E2DA2283842500463D35 /* GuestLogixChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2DB2283842500463D35 /* GuestLogixChallengeUITests.swift */,
+				BEA8E2DD2283842500463D35 /* Info.plist */,
+			);
+			path = GuestLogixChallengeUITests;
+			sourceTree = "<group>";
+		};
+		BEA8E2E92283A74900463D35 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2EA2283A74900463D35 /* routes.csv */,
+				BEA8E2EB2283A74900463D35 /* airlines.csv */,
+				BEA8E2EC2283A74900463D35 /* airports.csv */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		BEA8E2F02283A76600463D35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2F72284924600463D35 /* Route.swift */,
+				BEA8E2FC2284937500463D35 /* Airport.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BEA8E2F12283A78100463D35 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2F52284807700463D35 /* RouteFinder.swift */,
+				BEA8E2FE228495A300463D35 /* AirportManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BEA8E2F22283B78100463D35 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E2F32283B7B200463D35 /* CSVFileReader.swift */,
+				BEE096C02285D85600BE7840 /* TripDistanceCalculator.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BEA8E2FB2284932E00463D35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEA8E30222849AB300463D35 /* HopViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEE096C22285E89200BE7840 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEE096C32285E8B600BE7840 /* SearchTableViewCell.swift */,
+				BEE096C42285E8B600BE7840 /* SearchTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA8E2B72283842300463D35 /* GuestLogixChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA8E2E02283842500463D35 /* Build configuration list for PBXNativeTarget "GuestLogixChallenge" */;
+			buildPhases = (
+				BEA8E2B42283842300463D35 /* Sources */,
+				BEA8E2B52283842300463D35 /* Frameworks */,
+				BEA8E2B62283842300463D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuestLogixChallenge;
+			productName = GuestLogixChallenge;
+			productReference = BEA8E2B82283842300463D35 /* GuestLogixChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA8E2CB2283842500463D35 /* GuestLogixChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA8E2E32283842500463D35 /* Build configuration list for PBXNativeTarget "GuestLogixChallengeTests" */;
+			buildPhases = (
+				BEA8E2C82283842500463D35 /* Sources */,
+				BEA8E2C92283842500463D35 /* Frameworks */,
+				BEA8E2CA2283842500463D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA8E2CE2283842500463D35 /* PBXTargetDependency */,
+			);
+			name = GuestLogixChallengeTests;
+			productName = GuestLogixChallengeTests;
+			productReference = BEA8E2CC2283842500463D35 /* GuestLogixChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA8E2D62283842500463D35 /* GuestLogixChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA8E2E62283842500463D35 /* Build configuration list for PBXNativeTarget "GuestLogixChallengeUITests" */;
+			buildPhases = (
+				BEA8E2D32283842500463D35 /* Sources */,
+				BEA8E2D42283842500463D35 /* Frameworks */,
+				BEA8E2D52283842500463D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA8E2D92283842500463D35 /* PBXTargetDependency */,
+			);
+			name = GuestLogixChallengeUITests;
+			productName = GuestLogixChallengeUITests;
+			productReference = BEA8E2D72283842500463D35 /* GuestLogixChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA8E2B02283842300463D35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mark Volpe";
+				TargetAttributes = {
+					BEA8E2B72283842300463D35 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					BEA8E2CB2283842500463D35 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BEA8E2B72283842300463D35;
+					};
+					BEA8E2D62283842500463D35 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = BEA8E2B72283842300463D35;
+					};
+				};
+			};
+			buildConfigurationList = BEA8E2B32283842300463D35 /* Build configuration list for PBXProject "GuestLogixChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA8E2AF2283842300463D35;
+			productRefGroup = BEA8E2B92283842300463D35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA8E2B72283842300463D35 /* GuestLogixChallenge */,
+				BEA8E2CB2283842500463D35 /* GuestLogixChallengeTests */,
+				BEA8E2D62283842500463D35 /* GuestLogixChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA8E2B62283842300463D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA8E2C62283842500463D35 /* LaunchScreen.storyboard in Resources */,
+				BEA8E2EE2283A74900463D35 /* airlines.csv in Resources */,
+				BEA8E2EF2283A74900463D35 /* airports.csv in Resources */,
+				BEA8E2C32283842500463D35 /* Assets.xcassets in Resources */,
+				BEE096C62285E8B600BE7840 /* SearchTableViewCell.xib in Resources */,
+				BEA8E2ED2283A74900463D35 /* routes.csv in Resources */,
+				BEA8E2C12283842300463D35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA8E2CA2283842500463D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA8E2D52283842500463D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA8E2B42283842300463D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA8E30322849AB300463D35 /* HopViewModel.swift in Sources */,
+				BEA8E2BE2283842300463D35 /* ViewController.swift in Sources */,
+				BEA8E2F42283B7B200463D35 /* CSVFileReader.swift in Sources */,
+				BEA8E2BC2283842300463D35 /* AppDelegate.swift in Sources */,
+				BEA8E2FF228495A300463D35 /* AirportManager.swift in Sources */,
+				BEA8E2FD2284937500463D35 /* Airport.swift in Sources */,
+				BEE096C12285D85600BE7840 /* TripDistanceCalculator.swift in Sources */,
+				BEA8E2F82284924600463D35 /* Route.swift in Sources */,
+				BEA8E2F62284807700463D35 /* RouteFinder.swift in Sources */,
+				BEE096C52285E8B600BE7840 /* SearchTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA8E2C82283842500463D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA8E2D12283842500463D35 /* GuestLogixChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA8E2D32283842500463D35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA8E2DC2283842500463D35 /* GuestLogixChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA8E2CE2283842500463D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA8E2B72283842300463D35 /* GuestLogixChallenge */;
+			targetProxy = BEA8E2CD2283842500463D35 /* PBXContainerItemProxy */;
+		};
+		BEA8E2D92283842500463D35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA8E2B72283842300463D35 /* GuestLogixChallenge */;
+			targetProxy = BEA8E2D82283842500463D35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA8E2BF2283842300463D35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA8E2C02283842300463D35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA8E2C42283842500463D35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA8E2C52283842500463D35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA8E2DE2283842500463D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEA8E2DF2283842500463D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA8E2E12283842500463D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC3PM5L5W4;
+				INFOPLIST_FILE = GuestLogixChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VolpeSoftware.GuestLogixChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA8E2E22283842500463D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC3PM5L5W4;
+				INFOPLIST_FILE = GuestLogixChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VolpeSoftware.GuestLogixChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEA8E2E42283842500463D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC3PM5L5W4;
+				INFOPLIST_FILE = GuestLogixChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VolpeSoftware.GuestLogixChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuestLogixChallenge.app/GuestLogixChallenge";
+			};
+			name = Debug;
+		};
+		BEA8E2E52283842500463D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC3PM5L5W4;
+				INFOPLIST_FILE = GuestLogixChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VolpeSoftware.GuestLogixChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuestLogixChallenge.app/GuestLogixChallenge";
+			};
+			name = Release;
+		};
+		BEA8E2E72283842500463D35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC3PM5L5W4;
+				INFOPLIST_FILE = GuestLogixChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VolpeSoftware.GuestLogixChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuestLogixChallenge;
+			};
+			name = Debug;
+		};
+		BEA8E2E82283842500463D35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PC3PM5L5W4;
+				INFOPLIST_FILE = GuestLogixChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VolpeSoftware.GuestLogixChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GuestLogixChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA8E2B32283842300463D35 /* Build configuration list for PBXProject "GuestLogixChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA8E2DE2283842500463D35 /* Debug */,
+				BEA8E2DF2283842500463D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA8E2E02283842500463D35 /* Build configuration list for PBXNativeTarget "GuestLogixChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA8E2E12283842500463D35 /* Debug */,
+				BEA8E2E22283842500463D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA8E2E32283842500463D35 /* Build configuration list for PBXNativeTarget "GuestLogixChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA8E2E42283842500463D35 /* Debug */,
+				BEA8E2E52283842500463D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA8E2E62283842500463D35 /* Build configuration list for PBXNativeTarget "GuestLogixChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA8E2E72283842500463D35 /* Debug */,
+				BEA8E2E82283842500463D35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA8E2B02283842300463D35 /* Project object */;
+}
